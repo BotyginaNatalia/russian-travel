@@ -1,0 +1,18 @@
+.lead__route {
+    position: absolute;
+    max-width: 304.74px;
+    margin: 0;
+    padding-left: 0.4%;
+    padding-bottom: 3%;
+  }
+  
+  @media screen and (max-width: 1280px) {
+    .lead__route {
+      position: absolute;
+      max-width: 937.09px;
+      min-height: 263px;
+      margin: 0;
+      padding-left: 2.23%;
+      padding-bottom: 15.8%;
+    }
+  }
