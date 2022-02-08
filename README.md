@@ -6,7 +6,8 @@
 
 **HTML**
 **CSS**
-**Flex, Grid**
+**Flex**
+**Grid**
 **Медиазапросы**
 
 **Figma**
