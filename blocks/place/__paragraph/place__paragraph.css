@@ -1,7 +1,7 @@
 .place__paragraph {
   font-size: 16px;
   line-height: 163%;
-  color: #ffffff;  
+  color: #ffffff;
   display: grid;
   gap: 25px;
 }
