@@ -1,10 +1,25 @@
 .place__paragraph {
-    font-size: 16px;
+  font-size: 16px;
+  line-height: 163%;
+  color: #ffffff;  
+  display: grid;
+  gap: 25px;
+}
+
+@media screen and (min-height: 1024px) {
+  .place__paragraph {
+    font-size: 18px;
     line-height: 163%;
-    color: #ffffff;
-    padding-left: 16px;
-    padding-right: 16px;
     display: grid;
-    gap: 25px;
+    gap: 26px;
   }
-  
+}
+
+@media screen and (min-height: 1280px) {
+  .place__paragraph {
+    font-size: 18px;
+    line-height: 163%;
+    display: grid;
+    gap: 26px;
+  }
+}

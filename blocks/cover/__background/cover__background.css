@@ -1,32 +1,69 @@
 .cover__background {
-    max-width: 320px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    background-size: cover;
-    background-image: url(../../../images/cover-trains.jpg);
-    text-decoration: none;
-  }
+  max-width: 320px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../../../images/cover-trains.jpg);
+  text-decoration: none;
+}
 
-  .cover__background:hover {
-    width: 320px;
-    height: 200px;
-    opacity: 0.3;
-    color: #2a2c2f;
-    position: absolute;
+.cover__background:hover {
+  max-width: 320px;
+  min-height: 200px;
+  opacity: 0.3;
+  color: #2a2c2f;
+  position: absolute;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .cover__background {
+    max-width: 768px;
+    min-height: 480px;
     margin: 0 auto;
-    background-size: cover;
   }
-  
-  @media screen and (max-width: 1280px) {
-    .cover__background {
-      max-width: 1184px;
-      min-height: 640px;
-      margin: 0 auto;
-      display: flex;
-      flex-direction: column;
-      position: relative;
-      background-size: cover;
-    }
+}
+
+@media screen and (min-width: 768px) {
+  .cover__background:hover {
+    max-width: 768px;
+    min-height: 480px;
+    position: absolute;
   }
+}
+
+@media screen and (min-width: 1024px) {
+  .cover__background {
+    max-width: 1024px;
+    min-height: 640px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cover__background:hover {
+    max-width: 1024px;
+    min-height: 640px;
+    position: absolute;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .cover__background {
+    max-width: 1184px;
+    min-height: 640px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .cover__background:hover {
+    position: absolute;
+    min-width: 1184px;
+    min-height: 640px;
+    margin: 0 auto;
+  }
+}

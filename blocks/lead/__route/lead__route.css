@@ -1,18 +1,40 @@
 .lead__route {
+  position: absolute;
+  max-width: 304.74px;
+  margin: 0;
+  padding-left: 0.4%;
+  padding-bottom: 3%;
+}
+
+@media screen and (min-width: 768px) {
+  .lead__route {
     position: absolute;
-    max-width: 304.74px;
+    max-width: 731.88px;
+    min-height: 205.26px;
+    margin: 0 auto;
+    padding-left: 2.2%;
+    padding-bottom: 17%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lead__route {
+    position: absolute;
+    max-width: 883.76px;
+    min-height: 248.02;
     margin: 0;
-    padding-left: 0.4%;
-    padding-bottom: 3%;
+    padding-right: 2%;
+    padding-bottom: 15.5%;
   }
-  
-  @media screen and (max-width: 1280px) {
-    .lead__route {
-      position: absolute;
-      max-width: 937.09px;
-      min-height: 263px;
-      margin: 0;
-      padding-left: 2.23%;
-      padding-bottom: 15.8%;
-    }
+}
+
+@media screen and (min-width: 1280px) {
+  .lead__route {
+    position: absolute;
+    max-width: 937.09px;
+    min-height: 263px;
+    margin: 0;
+    padding-left: 1.5%;
+    padding-bottom: 11.2%;
   }
+}
