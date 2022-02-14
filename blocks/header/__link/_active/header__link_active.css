@@ -1,0 +1,8 @@
+.header__link_active {
+    text-decoration: underline;
+    font-size: 18px;
+    line-height: 20px;
+    color: #ffffff;
+    text-align: right;
+  }
+  
