@@ -13,33 +13,6 @@
     max-width: 640px;
     line-height: 36px;
     font-size: 30px;
-    text-align: center;
-    margin: 0 auto;
-    align-self: center;
-    padding-top: 32px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .lead__subtitle {
-    max-width: 640px;
-    line-height: 36px;
-    font-size: 30px;
-    text-align: center;
-    margin: 0 auto;
-    align-self: center;
-    padding-top: 32px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .lead__subtitle {
-    max-width: 640px;
-    line-height: 36px;
-    font-size: 30px;
-    text-align: center;
-    margin: 0 auto;
-    align-self: center;
     padding-top: 32px;
   }
 }

@@ -1,15 +1,15 @@
 .place__image {
     width: 320px;
     height: 320px;
-    margin: 0;
-    padding-top: 32px;
+    margin: 32px 0 0 0;
+    padding: 0;
   }
 
   @media screen and (min-width: 768px) {
     .place__image {
       width: 340px;
       height: 340px;
-      padding-top: 48px;
+      margin: 0;      
     }
   }
 
@@ -17,7 +17,6 @@
     .place__image {
       width: 440px;
       height: 440px;
-      padding-top: 48px;
     }
   }
 
@@ -25,6 +24,5 @@
     .place__image {
       width: 460px;
       height: 460px;
-      padding-top: 48px;
     }
   }

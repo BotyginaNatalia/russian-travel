@@ -17,14 +17,12 @@
   @media screen and (min-width: 1024px) {
     .lead__image {
       max-width: 928px;
-      padding-top: 56px;
     }
   }
   
   @media screen and (min-width: 1280px) {
     .lead__image {
       max-width: 984px;
-      padding-top: 56px;
-      margin: 0;
+      padding-top: 64px;
     }
   }

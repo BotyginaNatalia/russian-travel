@@ -14,20 +14,5 @@
 @media screen and (min-width: 768px) {
   .page {
     max-width: 100%;
-    margin: 0 auto;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .page {
-    max-width: 100%;
-    margin: 0 auto;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .page {
-    max-width: 100%;
-    margin: 0 auto;
   }
 }

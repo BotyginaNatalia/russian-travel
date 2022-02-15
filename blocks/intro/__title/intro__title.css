@@ -5,27 +5,9 @@
     color: #ffffff;
     margin: 0;
     text-align: start;
-    padding-left: 16px;
-    padding-top: 64px;
   }
 
   @media screen and (min-width: 768px) {
-    .intro__title {
-      font-size: 54px;
-      line-height: 58px;
-      font-weight: 900;
-    }
-  }
-
-  @media screen and (min-width: 1024px) {
-    .intro__title {
-      font-size: 54px;
-      line-height: 58px;
-      font-weight: 900;
-    }
-  }
-
-  @media screen and (min-width: 1280px) {
     .intro__title {
       font-size: 54px;
       line-height: 58px;

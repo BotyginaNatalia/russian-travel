@@ -1,9 +1,6 @@
 .photo-grid {
   max-width: 288px;
-  padding-top: 64px;
-  margin: 0 auto;
-  padding-left: 16px;
-  padding-right: 16px;
+  margin: 64px 16px 0 16px;
   display: grid;
   grid-template-columns: 1fr;
   row-gap: 12px;
@@ -12,47 +9,32 @@
 @media screen and (min-width: 768px) {
   .photo-grid {
     max-width: 720px;
-    display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 16px;
     row-gap: 16px;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
     overflow-x: hidden;
-    padding-left: 24px;
-    padding-right: 24px;
+    margin: 88px 24px 0 24px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .photo-grid {
     max-width: 928px;
-    display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 14px;
     row-gap: 14px;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    overflow-x: hidden;
-    padding-left: 48px;
-    padding-right: 48px;
+    margin: 88px 48px 0 48px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .photo-grid {
     max-width: 1184px;
-    display: grid;
     grid-template-columns: repeat(4, 1fr);
     column-gap: 16px;
     row-gap: 16px;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    overflow-x: hidden;
-    padding-left: 48px;
-    padding-right: 48px;
+    margin: 92px 48px 0 48px;
   }
 }

@@ -2,24 +2,19 @@
   font-size: 16px;
   line-height: 163%;
   color: #ffffff;
-  display: grid;
-  gap: 25px;
+  margin: 0 0 25px 0;
 }
 
 @media screen and (min-height: 1024px) {
   .place__paragraph {
     font-size: 18px;
     line-height: 163%;
-    display: grid;
-    gap: 26px;
+    margin: 0 0 27px 0;
   }
 }
 
-@media screen and (min-height: 1280px) {
+@media screen and (min-width: 1280px) {
   .place__paragraph {
-    font-size: 18px;
-    line-height: 163%;
-    display: grid;
-    gap: 26px;
+    margin: 0 0 26px 0;
   }
 }
