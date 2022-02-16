@@ -1,4 +1,5 @@
 .page {
+  position: relative;
   width: 100%;
   font-family: "Inter", Helvetica, sans-serif;
   background-color: #2a2c2f;
@@ -9,10 +10,6 @@
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
   margin: 0 auto;
+  padding: 0;
 }
 
-@media screen and (min-width: 768px) {
-  .page {
-    max-width: 100%;
-  }
-}

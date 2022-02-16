@@ -1,9 +1,12 @@
 .place__main-text {
-  margin: 32px 16px 0 16px;
+  margin: 32px 16px 50px 16px;
+  display: grid;
+  gap: 25px;
 }
 
 @media screen and (min-width: 768px) {
   .place__main-text {
+    max-width: 352px;
     margin: 0;
   }
 }
