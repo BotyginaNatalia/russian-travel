@@ -12,4 +12,4 @@
 
 ## Ссылка на сайт: ##
 
-https://github.com/BotyginaNatalia/russian-travel
+https://botyginanatalia.github.io/russian-travel/
