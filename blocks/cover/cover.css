@@ -1,7 +1,7 @@
 .cover {
   max-width: 320px;
   min-height: 200px;
-  margin: 66px 0 0 0;
+  margin: 20% 0 0 0;
   padding: 0;
 }
 
@@ -9,7 +9,7 @@
   .cover {
     max-width: 768px;
     min-height: 480px;
-    padding-top: 17px;
+    padding-top: 12px;
     margin: 0;
   }
 }
