@@ -1,9 +1,9 @@
 .place__main-text {
-  max-width: 288px;
+  max-width: 320px;
   margin: 32px 0 45px 0;
   padding: 0 16px 0 16px;
   display: grid;
-  row-gap: 25px;
+  row-gap: 24px;
 }
 
 @media screen and (min-width: 768px) {
