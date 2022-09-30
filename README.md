@@ -1,15 +1,19 @@
-# Проект: Путешествие по России
-
+# Проект: "Путешествие по России"
+___
 ## Aдаптивный сайт о путешествиях по России
+___
+### Использованные технологии:  
+  <p align="left">
+  <li><img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" /></li>
+  <li><img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" /></li>  
+  </p>
 
-### Технологии:
+### При создании проекта применялись:  
+  <p align="left">
+  <li>Flex</li>
+  <li>Grid</li>
+  <li>Медиа-запросы</li>
+  <li>БЭМ</li>
+  </p>    
 
-**HTML**
-**CSS**
-**Flex**
-**Grid**
-**Медиазапросы**
-
-## Ссылка на сайт: ##
-
-https://botyginanatalia.github.io/russian-travel/
+### Ссылка: https://botyginanatalia.github.io/russian-travel
