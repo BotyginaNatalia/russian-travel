@@ -14,6 +14,7 @@ ___
   <li>Grid</li>
   <li>Медиа-запросы</li>
   <li>БЭМ</li>
-  </p>    
+  <li>Адаптивная верстка</li>
+  </p>
 
 #### Ссылка: https://botyginanatalia.github.io/russian-travel
